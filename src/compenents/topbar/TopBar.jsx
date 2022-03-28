@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom'; 
 import React from 'react'
 import './topbar.css'
 
@@ -14,7 +15,7 @@ export default function TopBar() {
             <div className='topCenter'>
               <ul className='topList'>
                 <li className='topListItem'>
-                  <Link to='/'className='link'>HOME</Link>
+                  <NavLink to='/'className='link'>HOME</NavLink>
                 </li>
             <li className='topListItem'><Link to='/' className='link'></Link>PRODUCTS</li>
             <li className='topListItem'><Link to='/single' className='link'></Link>BLOG</li>

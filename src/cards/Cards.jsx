@@ -19,7 +19,19 @@ class Cards extends Component {
                         <Card imgsrc={img3} title="Train" />
                     </div>
                 </div>
+                <div className="row">
+                    <div className="col-md-auto">
+                        <Card imgsrc={img1} title="Walk" />
+                    </div>
+                    <div className="col-md-auto">
+                        <Card imgsrc={img2} title="Treat" />
+                    </div>
+                    <div className="col-md-auto">
+                        <Card imgsrc={img3} title="Train" />
+                    </div>
+                </div>
             </div>
+            
 
         );
     }

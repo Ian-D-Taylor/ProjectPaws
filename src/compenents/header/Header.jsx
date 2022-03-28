@@ -8,7 +8,7 @@ import './header.css'
 export default function Header() {
     return (
         <div className='header'>
-                <Link to= "/" className='headerTitleLarge'>
+                <Link to= "/" className="headerTitleLarge">
                     <a href="/">Project Paw Melbourne</a>
                 </Link>
                 {/* <span className='headerTitleSmall'>Melbourne</span> */}

@@ -10,7 +10,7 @@
     position: relative;
     margin: 0px;
 
-} 
+}
 .headerTitleLarge{
     display: flex;
     position: relative;
@@ -18,15 +18,21 @@
     font-size: 39px;
     color: #778899;
     justify-content:center;
-    text-decoration: none;
     font-family: 'Roboto', sans-serif;
+    text-decoration: none;
 }
 a {
-    color: #778899;
     text-decoration: none;
+    color: #778899; 
 } :hover {
-    text-decoration: none;
+    color: black;
+    
 }
+@media only screen and (min-width: 100%) {
+    
+}
+
+
 
 
 
